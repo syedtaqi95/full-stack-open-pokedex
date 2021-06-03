@@ -3,9 +3,6 @@ name: healthcheck
 on:
   schedule:
     - cron: "0 * * * *" # runs every hour everyday
-  push:
-    branches:
-      - master
 
 jobs:
   healthcheck:
