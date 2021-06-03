@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - test-skip
 
 jobs:
   hello_world_job:
